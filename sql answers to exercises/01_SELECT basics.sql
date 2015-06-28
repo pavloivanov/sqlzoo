@@ -36,4 +36,4 @@ SELECT name FROM world
 -- 6. Which countries are not too small and not too big? Show the country and the area for countries with an area between 200000 and 250000. BETWEEN allows range checking - note that it is inclusive.
 -- Show the area in 1000 square km. Show area/1000 instead of area
 SELECT name, area/1000 FROM world
-  WHERE area BETWEEN 200000 AND 250000ж
+  WHERE area BETWEEN 200000 AND 250000;
